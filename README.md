@@ -19,3 +19,5 @@ c= rgb(R,G,B)
 *Paste in output*
 
 hold left click on the colour option of (x,-y) and change to c.
+
+![Desmos Demo](https://github.com/ashgreytray/desmos-pixel-art/blob/bf8de065be0696264b916684ff3cff32df2aae34/sampledesmos.png)
