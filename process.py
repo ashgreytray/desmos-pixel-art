@@ -4,8 +4,8 @@ import os
 
 #- things to add to desmos are in the readme.md
 # - put ur file paths :)
-IMAGE_PATH = r"directory of image (probably only one, havent checked others)"
-OUTPUT_PATH = r"directory of where u want the output to exit"
+IMAGE_PATH = r"directory with ur image (might work with multiple)"
+OUTPUT_PATH = r"directory that the RGB outputs are going into"
 GRID_SIZE = 64  #- probably can work up to 100
 
 
@@ -18,7 +18,7 @@ for fname in os.listdir(IMAGE_PATH):
         continue
 
     img = cv2.resize(img, (GRID_SIZE, GRID_SIZE), interpolation=cv2.INTER_AREA)
-#-rgb points
+#-rgb pointss
     points1 = []
     points2 = []
     points3 = []
@@ -29,7 +29,7 @@ for fname in os.listdir(IMAGE_PATH):
     with open(txt_path, "w") as f:
         for x in range(GRID_SIZE):
             for y in range(GRID_SIZE):
-                r, g, b = img[x, y]
+                b, g, r = img[x, y]
                 points1.append(
                     int(r)
                 )
@@ -39,7 +39,7 @@ for fname in os.listdir(IMAGE_PATH):
                 points3.append(
                     int(b)
                 )
-        f.write(f"{points1}, {points2}, {points3}")
+        f.write(f"R={points1} \n G={points2} \n B={points3}")
 
 
 
