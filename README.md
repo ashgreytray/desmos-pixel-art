@@ -1,5 +1,5 @@
 # desmos-pixel-art
-Takes an image (maybe multiple) from a directory and gets the colours exported in RGB
+image to 64x64 desmos pixel art
 
 # What to copy into desmos
 w=64
