@@ -1,10 +1,11 @@
 # desmos-pixel-art
-image to 64x64 desmos pixel art (Make sure to have all modules installed) <br>
-Step 1. Make sure to have a folder with the images you want to use<br>
-Step 2. Run ```process.py```<br>
-Step 3. Select the folder with images<br>
-Step 4. Wait for the "All Done" message<br>
-Step 5. Then follow the bellow steps
+image to 64x64 desmos pixel art <br>
+Step 1. Make sure all modules are installed when you run it!<br>
+Step 2. Make sure to have a folder with the images you want to use<br>
+Step 3. Run ```process.py```<br>
+Step 4. Select the folder with images<br>
+Step 5. Wait for the "All Done" message<br>
+Step 6. Then follow the bellow steps
 
 # What to copy into desmos
 w=64
