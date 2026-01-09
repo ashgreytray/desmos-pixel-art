@@ -6,7 +6,7 @@ import easygui
 #- select directory with image
 img_path = easygui.diropenbox(
     msg="Select Folder With Images",
-    title="Folder",)
+    title="Folder")
 directory = './desmos_result/'
 output_path = os.path.join(directory)
 grid = 64  #- probably can work up to 100
@@ -43,6 +43,7 @@ for fname in os.listdir(img_path):
                 )
         f.write(f"R={points1} \n G={points2} \n B={points3}")
         print("All Done")
+
 
 
 
