@@ -5,7 +5,7 @@ Step 2. Make sure to have a folder with the images you want to use<br>
 Step 3. Run ```process.py```<br>
 Step 4. Select the folder with images<br>
 Step 5. Wait for the "All Done" message<br>
-Step 6. Then follow the bellow steps
+Step 6. Then follow the below steps
 
 # What to copy into desmos
 w=64
